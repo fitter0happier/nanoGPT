@@ -9,7 +9,7 @@ log_interval = 10 # don't print too too often
 always_save_checkpoint = False
 
 wandb_log = True # override via command line if you like
-wandb_project = 'history_for_training'
+wandb_project = 'recapNLP'
 wandb_run_name = 'GPT2_run_' + str(time.time())
 
 dataset = 'cnn_dailymail'
